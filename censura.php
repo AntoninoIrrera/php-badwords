@@ -2,8 +2,8 @@
 <?php
 
 
-    $paragrafo = $_GET["paragrafo"];
-    $censura = $_GET["censura"];
+    $paragrafo = $_POST["paragrafo"];
+    $censura = $_POST["censura"];
 
     $paragrafo = trim(strtolower($paragrafo));
     $censura = trim(strtolower($censura));

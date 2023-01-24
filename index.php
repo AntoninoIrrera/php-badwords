@@ -10,7 +10,7 @@
 
 <body>
 
-    <form action="censura.php" method="GET">
+    <form action="censura.php" method="POST">
 
         <label for="paragrafo">Inserisci il tuo paragrafo</label>
         <input type="text" id="paragrafo" name="paragrafo">
