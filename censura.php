@@ -1,5 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<?php
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Censura</title>
+</head>
+
+<body>
+
+    <?php
 
 
     $paragrafo = $_POST["paragrafo"];
@@ -10,12 +21,17 @@
 
 
 
-    echo $paragrafo." ".strlen($paragrafo);
-    
-?>
-<br>
-<?php
-    $paragrafoCensurato = str_replace($censura,"***",$paragrafo);
+    echo $paragrafo . " " . strlen($paragrafo);
 
-    echo $paragrafoCensurato." ".strlen($paragrafoCensurato);
-?>
+    ?>
+    <br>
+    <?php
+    $paragrafoCensurato = str_replace($censura, "***", $paragrafo);
+
+    echo $paragrafoCensurato . " " . strlen($paragrafoCensurato);
+    ?>
+
+
+</body>
+
+</html>
